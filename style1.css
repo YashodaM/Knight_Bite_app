@@ -1,0 +1,265 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#fstPage{
+    background-image: url(./burger_bd.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    display:flex;
+    flex-wrap: wrap;
+
+
+}
+#nav{
+    height:100px;
+    width:100vw;
+    background-color: rgba(0,0,0,0.12);
+    position: fixed;
+}
+#logo{
+    position:fixed;
+    top:10px;
+    left:50px;
+    height: 80px;
+    width:120px;
+}
+#btn{
+
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top:10px;
+    right:100px;
+}
+a{
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 25px;
+    font-size: 25px;
+    color:white;
+}
+#hd1{
+    margin-top: 300px;
+    color:white;
+    font-size:70px;
+    margin-left:280px;
+    letter-spacing: 2px;
+}
+#order{
+    background-color: red;
+    margin-top: 40px;
+    margin-left:670px;
+    border-radius: 10px;
+    padding:10px;
+    width:170px;
+    color:white;
+    border: none;
+    font-size: 20px;
+}
+#opt{
+    margin-left:740px; 
+    margin-top: 30px;  
+    font-size: 20px;
+    color:white;
+}
+.btn1{
+    margin-bottom: 20px;
+    margin-left:500px; 
+    /* transition:all 1s;*/
+} 
+.btn1:hover{
+   /* height: 60px;
+   width:190px; */
+   transform: scale(0.9);
+}
+.btn2{
+    margin-bottom: 5px;
+    /* transition: all 1s; */
+}
+.btn2:hover{
+    /* height: 90px;
+    width:210px; */
+    transform: scale(0.9);
+ }
+ #msg{
+    position: fixed;
+    right:50px;
+    bottom: 5px;
+    color:red;
+}
+#hd2{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+}
+#features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;   
+}
+figure{
+    margin-top: 80px;
+}
+figcaption{
+    font-size: 20px;
+    text-align: center;
+}
+#food1{
+    background-image: url(./snd_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    margin-top: 150px;
+}
+#head1{
+    padding-top: 250px;
+    
+}
+#hd3{
+    color:white;
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#food2{
+    background-image: url(./third_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+#head2{
+    padding-top: 250px;
+    
+}
+h4{
+    color:white;
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+#btn3{
+    color:white;
+    height:60px;
+    width:250px;
+    position:relative;
+    left:650px;
+    top:100px;
+    background:0 0;
+    border-radius: 50px;
+    border:1.3px solid #fff;
+    font-size: 30px;
+  
+}
+#footer{
+    display: flex;
+    flex-direction: column;
+}
+#cnt{
+    text-align: center;
+    font-size: 60px;
+}
+.foot1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+#foot{
+    width:90%;
+    line-height: 1.6;
+    font-size: 20px;
+
+}
+.ql{
+    color:rgba(219, 16, 16);
+}
+#para{
+    width:50%;
+}
+h3{
+    font-size: 30px;
+}
+.icn1{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.icn2{
+    margin-top: 40px;
+    font-size: 20px;
+}
+li{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 25px;
+}
+#ad{
+    height:70px;
+    width:430px;
+    border-radius: 50px;
+    padding-left: 40px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.adbtn{
+    border: none;
+    position:relative;
+    right:75px;
+    top:28px;
+}
+.adbtn:hover{
+    transform: scale(1.1);
+}
+.foot2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.address{
+    margin-top: 30px;
+    font-size: 20px;
+}
+#socialMedia{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.sm{
+    margin-left: 50px;
+}
+.sm:hover{
+    transform: scale(1.1);
+}
+#sm1:hover{
+    transform: scale(1.1);
+}
+
+#lst{
+    display: flex;
+    flex-direction: row;
+    margin-left: 700px;
+}
+.lst1{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#cpy{
+    background-color: palevioletred;
+    color:white;
+    text-align: center;
+    height:40px;
+    padding-top: 20px;
+}
+

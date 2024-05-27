@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./menubg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display:flex;
+    flex-wrap: wrap;
+}
+#nav1{
+    display: flex;
+    flex-direction: row;
+}
+#navImg{
+    margin-left: 100px;
+    margin-top: 25px;
+}
+h3{
+    margin-left: 20px;
+    margin-top: 30px;
+    color:white;
+}
+#nav{
+    height:100px;
+    width:100vw;
+    position: fixed;
+    background: rgba(0,0,0,0.12);
+}
+#btn{
+
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top:10px;
+    right:100px;
+}
+a{
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 25px;
+    font-size: 25px;
+    color:white;
+}
+#msg{
+    position: fixed;
+    right:50px;
+    bottom: 5px;
+    color:red;
+}
+ #mainMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+#menu1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left:250px;
+}
+.start1{
+    margin-left: 200px;
+}
+.start2{
+    margin-left: 230px;
+}
+h1{
+    color:white;
+    
+}
+.mn1{
+    margin-left: 160px;
+}
+.sign1{
+    margin-left: 50px;
+}
+.sign2{
+    margin-left: 250px;
+}
+#menu2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 250px;
+   
+}
+.start3{
+    margin-right: 50px;
+}
+.start4{
+    margin-left: 250px;
+}
+.start5{
+    margin-left: 350px;
+}
+.wp1{
+    margin-left: 250px;
+}
+.wp2{
+    margin-left: 320px;
+}
+.sign3{
+    margin-left: 270px;
+}
+.sign4{
+    margin-left: 380px;
+}
+#cpy{
+    background-color: palevioletred;
+    color:white;
+    text-align: center;
+    height:40px;
+    width:100vw;
+    padding-top:20px ;
+    margin-top: 150px;
+}
+
